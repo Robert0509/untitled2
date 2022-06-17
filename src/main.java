@@ -48,7 +48,7 @@ if (x.length>3){
           if (b > 0) {
             System.out.println(rom[b]);
           } else {
-            Exception e = null;
+
             System.out.println("полученная цыфра не может быть меньше I");
           }
           break;
@@ -60,7 +60,7 @@ if (x.length>3){
           if (c > 0) {
             System.out.println(rom[c]);
           } else {
-            Exception e = null;
+
             System.out.println("полученная цыфра не может быть меньше I");
           }
           break;
@@ -73,7 +73,7 @@ if (x.length>3){
       }
 
     }
-    else{Exception e= null;
+    else {
       System.out.println("введенные цыфры не сответствуют стандартам калькулятора");}
   }
 
@@ -101,7 +101,7 @@ if (x.length>3){
           break;
       }
     }
-    else{Exception e= null;
+    else{;
       System.out.println("введенные цыфры не сответствуют стандартам калькулятора");}
   }
 }
